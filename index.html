@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <title> Black Jack </title>
+</head>
+    <body class="d-flex min-vh-100" style="background-image: url(./img/ja.jpg); background-repeat: no-repeat; background-position: center; background-size: cover;">
+  
+    <div class="container bg-warning m-auto p-3 rounded-2 w-50 shadow-lg" style="background-image: url(./img/bj.jpg); background-repeat: no-repeat; background-position: center; background-size: cover;">
+   
+      <div class="m-4">
+        <input type="number" 
+              id="card1" 
+              class="border rounded-pill text-dark text-center fs-1 fw-bolder" 
+              style="width: 2cm; height: 2cm;"/>
+        <input type="number" 
+              id="card2" 
+              class="border rounded-pill text-dark text-center fs-1 fw-bolder" 
+              style="width: 2cm; height: 2cm;"
+      </div>
+      <div class="d-flex justify-content-center m-2">
+
+        <button class="text-light bg-success rounded m-1 border-0 p-3 fw-bolder" onclick="check()">PLAY</button> 
+      </div>
+      <p id="check-el" class="fw-bold "></p>
+
+      <h5 class="bg-warning rounded w-75 text-center m-auto fw-bold"> Choose two numbers that their sum is not bigger than 21. </h5>
+    </div>
+      
+    
+      
+      
+  
+     
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="./script.js"></script>
+</body>
+</html>
